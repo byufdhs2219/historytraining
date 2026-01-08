@@ -1,0 +1,454 @@
+    1  passwd
+    2  vi /etc/ssh/sshd_config
+    3  systemctl restart ssh
+    4  logout
+    5  exit
+    6  pwd
+    7  touch index.htmll
+    8  cp index.htmll index.html
+    9  cat index.html
+   10  echo "Hello World!" > index.html
+   11  cat index.html
+   12  echo "Welcome" >> index.html
+   13  cat index.html
+   14  ls -l
+   15  rm index.htmll
+   16  ls -l
+   17  cp index.html /mnt/
+   18  ls -l /mnt/
+   19  cp index.html /mnt/index/php
+   20  cp index.html /mnt/index.php
+   21  ls -l /mnt/
+   22  ping 172.23.4.0
+   23  ping 172.23.4.1
+   24  ping 172.23.4.61
+   25  ip a
+   26  nmtui
+   27  hostnamectl
+   28  hostnamectl set-hostname Server-01-Bayu
+   29  hostnamectl set-hostname Server-01-Bayu-LSA
+   30  hostnamectl
+   31  hostnmae
+   32  hostname
+   33  ping
+   34  ping 172.23.12.18
+   35  whoami
+   36  pwd
+   37  cat /etc/os-release
+   38  lscpu | grep -i core
+   39  lscpu | grep -i RAM
+   40  lscpu | grep -i R
+   41  free -h
+   42  lsblk
+   43  lscpu | grep -i core
+   44  lsblk
+   45  su
+   46  ls
+   47  ls developer
+   48  ls developer/
+   49  touch developer/index.html
+   50  ls developer/index.html
+   51  cat developer/index.html
+   52  cp -r developer/ /mnt/
+   53  ls
+   54  ls /mnt/developer
+   55  mv developer/ /media/
+   56  ls /media/
+   57  mv /media/developer/ /root/developer/
+   58  ls
+   59  history
+   60  free -h
+   61  ping 172.23.12.18
+   62  mv --help
+   63  ls -a
+   64  ls -la
+   65  rmdir /media
+   66  mkdir /media
+   67  ls /mnt
+   68  rmdir /mnt/
+   69  clear
+   70  cat /etc/passwd
+   71  cat /etc/shadow
+   72  cat /etc/group
+   73  cat /etc/passwd
+   74  cat /etc/passwd | grep -i root
+   75  cat /etc/passwd | grep -i ubuntu
+   76  lscpu
+   77  adduser john
+   78  ls /home
+   79  cat /etc/passwd | grep -i john
+   80  cat /etc/shadow | grep -i john
+   81  cat /etc/group | grep -i john
+   82  cat sudoers
+   83  sudoers
+   84  ls
+   85  cat sudo sudoers
+   86  clear
+   87  gruopadd developer
+   88  groupadd developer
+   89  usermod -aG developer john
+   90  id root
+   91  id john
+   92  id user
+   93  is uder
+   94  id group
+   95  id john
+   96  cat /etc/group
+   97  cat /etc/group | grep -i users
+   98  cat /etc/group | grep -i user
+   99  id root
+  100  usermod -aG sudo john
+  101  id john
+  102  cat /etc/group | grep -i sudo
+  103  ls /bin
+  104  cat /bin/git
+  105  xterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorxterm-256colorclea
+  106  clear
+  107  logout
+  108  exit
+  109  ls
+  110  touch mvindex.html
+  111  mv mvindex.html /mnt/
+  112  ls
+  113  ls /mnt/
+  114  mv /mnt/mvindex.html /root/mvindex.php
+  115  ls
+  116  ls /mnt/
+  117  mkdir sampah
+  118  clear
+  119  pwd
+  120  history
+  121  clear
+  122  mkdir developer
+  123  ls
+  124  su
+  125  logout
+  126  history
+  127  clear
+  128  git
+  129  clear
+  130  ls -l /bin
+  131  ls -l /usr/bin
+  132  ls
+  133  ls -la
+  134  touch 1
+  135  ls -la
+  136  ls -la 1
+  137  cat /etc/netplan/50-cloud-init.yaml 
+  138  adduser lsa.adm
+  139  adduser lsa.a
+  140  adduser adm.byufd
+  141  adduser adm.byufd --allow-bad-naes
+  142  adduser adm.byufd --allow-bad-names
+  143  groupmod
+  144  groupmod -aG sudo adm.byufd
+  145  usermod -aG sudo adm.byufd
+  146  vi /etc/ssh/sshd_config
+  147  systemctl restart sshd
+  148  systemctl restart ssh
+  149  logout
+  150  exit
+  151  history
+  152  pwd
+  153  cd root
+  154  ls index.html
+  155  ls -l index.html
+  156  chmod o+x index.html
+  157  cd root
+  158  history
+  159  ls -l index.html
+  160  chmod ugo+x index.html
+  161  ls -l index.html
+  162  chmod o-rx index.html
+  163  1155
+  164  ls -l index.html
+  165  chmod 777 index.html
+  166  ls -l index.html
+  167  chmod 775 index.html
+  168  ls -l index.html
+  169  history > history.txt
+  170  a
+  171  pwd
+  172  ls
+  173  ip r
+  174  ip a
+  175  vi /etc/netplan/50-cloud-init.yaml 
+  176  netstat apply
+  177  netplan apply
+  178  ip r
+  179  apt -y update && apt -y upgrade
+  180  cd /root
+  181  vi /etc/ssh/sshd_config
+  182  systemctl restart ssh
+  183  vi /etc/ssh/sshd_config
+  184  systemctl restart daemon-reload &7 systemctl restart ssh
+  185  systemctl restart daemon-reload &$ systemctl restart ssh
+  186  systemctl restart daemon-reload && systemctl restart ssh
+  187  systemctl restart daemon-reload
+  188  systemctl daemon-reload && systemctl restart ssh
+  189  netstat -tulpn
+  190  ss -tulpn
+  191  logout
+  192  exit
+  193  cd /root
+  194  history
+  195  cd /root
+  196  clear
+  197  mkdir backend
+  198  cd backend
+  199  echo "dari bayu" > bayu.html
+  200  scp -P 2026 bayu.html ubuntu@172.23.4.60:~/
+  201  mkdir script
+  202  touch script/bayu{1..10}.html
+  203  ls -l script/
+  204  ls
+  205  mv script script-bayu
+  206  ls
+  207  scp -P 2026 -r script-bayu ubuntu@172.23.4.60:~/
+  208  zip
+  209  apt install zip
+  210  ls
+  211  zip -r script-bayu.zip script-bayu
+  212  ls
+  213  scp -P 2026 -r script-bayu.zip ubuntu@172.23.4.60:~/
+  214  date
+  215  cd /root
+  216  date
+  217  timedatectl set-timezone Asia/Jakarta
+  218  date
+  219  echo "date" > date.sh
+  220  chmod +x date.sh
+  221  date.sh
+  222  ./date.sh
+  223  cron
+  224  crontab -e
+  225  tail -f date.log
+  226  clear
+  227  apt install bind9 -y
+  228  cd /etc/bind
+  229  mkdir testaplikasi.com
+  230  cp db.127 testaplikasi.com/testaplikasi.reverse
+  231  cp db.local testaplikasi.com/testaplikasi.forward
+  232  cp named.conf.local testaplikasi.com/named.conf.testaplikasi
+  233  ls testaplikasi.com
+  234  ls
+  235  ls testaplikasi.com
+  236  vi named.conf
+  237  ls
+  238  vi testaplikasi.com/named.conf.testaplikasi
+  239  cd /root
+  240  history
+  241  cd /etd/bind
+  242  cd /etc/bind
+  243  vi testaplikasi.com/testaplikasi.forward
+  244  cat testaplikasi.com/testaplikasi.forward
+  245  vi testaplikasi.com/testaplikasi.reverse
+  246  named-checkzone testaplikasi.com testaplikasi.com/forward
+  247  named-checkzone testaplikasi.com testaplikasi.com.forward
+  248  named-checkzone testaplikasi.com testaplikasi.com/testaplikasi.com.forward
+  249  ls
+  250  named-checkzone testaplikasi.com testaplikasi.com/testaplikasi.forward
+  251  cat testaplikasi.com/testaplikasi.forward
+  252  vi testaplikasi.com/testaplikasi.forward
+  253  vi testaplikasi.com/testaplikasi.reverse
+  254  vi testaplikasi.com/testaplikasi.forward
+  255  named-checkzone testaplikasi.com testaplikasi.com/testaplikasi.forward
+  256  vi testaplikasi.com/testaplikasi.forward
+  257  named-checkzone testaplikasi.com testaplikasi.com/testaplikasi.forward
+  258  vi testaplikasi.com/testaplikasi.forward
+  259  named-checkzone testaplikasi.com testaplikasi.com/testaplikasi.forward
+  260  vi testaplikasi.com/testaplikasi.forward
+  261  named-checkzone testaplikasi.com testaplikasi.com/testaplikasi.forward
+  262  named-checkzone 23.172.in-addr.arpa testaplikasi.com testaplikasi.com/testaplikasi.reverse
+  263  named-checkzone 23.172.in-addr.arpa testaplikasi.com/testaplikasi.reverse
+  264  systemctl restart bind9
+  265  systemctl status bind9
+  266  histor
+  267  yhistory
+  268  history
+  269  named-checkzone testaplikasi.com testaplikasi.com/testaplikasi.forward
+  270  named-checkzone 23.172.in-addr.arpa testaplikasi.com/testaplikasi.reverse
+  271  ping testaplikasi.com
+  272  vi /etc/resolv.conf
+  273  nslookup 
+  274  vi /etc/resolv.conf
+  275  systemctl restart bind9
+  276  nslookup 
+  277  vi testaplikasi.com/testaplikasi.forward
+  278  ls
+  279  vim testaplikasi.com/named.conf.testaplikasi
+  280  vim named.conf
+  281  systemctl restart bind9
+  282  nslookup ns1.testaplikasi.com
+  283  nslookup ns2.testaplikasi.com
+  284  nslookup
+  285  histpry
+  286  history
+  287  vi /etc/resolv.conf
+  288  history
+  289  vi /etc/bind.named.conf
+  290  history
+  291  vi /etc/bind/named.conf
+  292  nslookup
+  293  ls testaplikasi.com/
+  294  ls -l testaplikasi.com/
+  295  cat testaplikasi.com/named.conf.testaplikasi
+  296  vi testaplikasi.com/named.conf.testaplikasi
+  297  vi /etc/bind/named.conf.options
+  298  systemctl restart bind9
+  299  ping testaplikasi.com
+  300  systemctl stop bind9
+  301  systemctl start bind9
+  302  systemctl stop bind9
+  303  clear
+  304  apache install apache2 -y
+  305  apt install apache2 -y
+  306  cd /root
+  307  systemctl status apache2
+  308  cd /etc/apache2
+  309  cd sites-available
+  310  ls
+  311  ls -la
+  312  cat 000-default.conf
+  313  ls -l
+  314  vi 000-default.conf 
+  315  systemctl restart apache2
+  316  cat 000-default.conf 
+  317  cd
+  318  git clone https://github.com/bedimcode/responsive-halloween-website.git
+  319  ls
+  320  mv responsive-halloween-website/* /var/www/html/
+  321  ls -l /var/www/html
+  322  cd /root
+  323  cd /etc/apache2/ssl
+  324  cd /etc/apache2
+  325  mkdir ssl
+  326  cd testaplikasi.com
+  327  mkdir testaplikasi.com
+  328  cd testaplikasi.com
+  329  ls
+  330  openssl
+  331  openssl req -newkey rsa:2048 -nodes -keyout:testaplikasi.key -x509 -days 365 -out testaplikasi.crt
+  332  openssl req -newkey rsa:2048 -nodes -keyout=testaplikasi.key -x509 -days 365 -out testaplikasi.crt
+  333  ls
+  334  cd ..
+  335  ls
+  336  ls testaplikasi.com
+  337  mv -r testaplikasi.com/ /ets/apache2/ssl/
+  338  mv testaplikasi.com/ /ets/apache2/ssl/
+  339  mv testaplikasi.com/ /etc/apache2/ssl/
+  340  cd ssl/
+  341  ls
+  342  cd testaplikasi.com
+  343  ls
+  344  rm -rf *
+  345  ls
+  346  openssl req -newkey rsa:2048 -nodes -keyout=testaplikasi.key -x509 -days 365 -out testaplikasi.crt
+  347  cd /etd/apacke2/sites-available
+  348  cd /etd/apache2/sites-available
+  349  cd /etc/apache2/sites-available
+  350  ls
+  351  vi default-ssl.conf
+  352  a2ensite default-ssl.conf
+  353  systemctl restart apache2
+  354  journalctl -xeu
+  355  journalctl
+  356  journalctl -xeu apache2
+  357  a2enmod ssl
+  358  systemctl restart apache2
+  359  journalctl -xeu apache2
+  360  ls
+  361  vi 00-default.conf
+  362  vi 000-default.conf
+  363  systemctl restart apache2
+  364  systemctl status apache2
+  365  a2enmod rewrire
+  366  a2enmod rewrite
+  367  systemctl restart apache2
+  368  cd .
+  369  ls
+  370  cd
+  371  ls
+  372  pwd
+  373  git clone https://github.com/TomMalbran/games.git
+  374  ls
+  375  mv games/ /var/www/
+  376  ls /var/www
+  377  cd /etc/apache2
+  378  cd sites-available
+  379  cp 000-default.conf games.conf
+  380  vi games.conf
+  381  a2ensite games.conf && systemctl reload apache2
+  382  a2ensite games.conf
+  383  systemctl reload apache2
+  384  vi games.conf
+  385  a2ensite games.conf
+  386  systemctl reload apache2
+  387  vi games.conf
+  388  systemctl restart apache2
+  389  ls /var/www
+  390  ls /var/www/games
+  391  vi games.conf
+  392  a2ensite games.conf
+  393  systemctl restart apache2
+  394  vi games.conf
+  395  systemctl restart apache2
+  396  hpasswd - /etc/apache2/.htpasswd byufd
+  397  htpasswd - /etc/apache2/.htpasswd byufd
+  398  htpasswd -c /etc/apache2/.htpasswd byufd
+  399  cat /etc/apache2.htpasswd
+  400  cat /etc/apache2/.htpasswd
+  401  systemctl restart apache2
+  402  cd
+  403  history >history
+  404  history > history.txt
+  405  clear
+  406  cd 
+  407  apt install mariadb-server php libapache2-mod-php php-mysql phpmyadmin -y
+  408  ss -tulpn
+  409  vi /etc/mysql/mariadb.conf.d/50-server.cnf
+  410  systemctl restart mariadb
+  411  vi /etc/mysql/mariadb.conf.d/50-server.cnf
+  412  systemctl restart mariadb
+  413  vi /etc/mysql/mariadb.conf.d/50-server.cnf
+  414  systemctl restart mariadb
+  415  mkdir /var/log/mysql
+  416  systemctl restart mariadb
+  417  chown mysql:mysql /var/log/mysql
+  418  systemctl restart mariadb
+  419  cat /etc/mysql/mariadb.conf.d/50-server.cnf
+  420  systemctl restart mariadb
+  421  mysql
+  422  clear
+  423  apt -y install haproxy
+  424  vim /etc/haproxy/haproxy.cfg
+  425  systemctl restart haproxy
+  426  systemctl stop apache2
+  427  systemctl restart haproxy
+  428  journalctl -xeu haproxy
+  429  systemctl restart haproxy
+  430  vim /etc/haproxy/haproxy.cfg
+  431  systemctl restart haproxy
+  432  systemctl status haproxy
+  433  cd
+  434  apt install samba -y
+  435  mkdir -p /data/public
+  436  mkdir -p /data/dept-finance
+  437  chmod 777 /data/public
+  438  chmod 770 /data/dept-finance
+  439  groupadd finance
+  440  useradd finance-group
+  441  usermod -aG finance finance-group
+  442  chgrp finance /data/dept-finance/
+  443  ls -l
+  444  ls -l /data/dept-finance
+  445  ls /data/dept-finance -l
+  446  ls /data/ -l
+  447  smbpasswd -a finance-grp
+  448  smbpasswd -a finance-group
+  449  history
+  450  vi /etc/samba/smb.conf 
+  451  systemctl restart smb
+  452  vi /etc/samba/smb.conf 
+  453  history > history
+  454  history > history.txt
