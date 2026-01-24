@@ -1,0 +1,124 @@
+    1  ip a
+    2  cd
+    3  systemctl enable ssh
+    4  systemctl restartssh
+    5  systemctl restart ssh
+    6  systemctl daemon-reload
+    7  ip a
+    8  cd
+    9  wget https://files.zimbra.com/downloads/8.8.15_GA/zcs-8.8.15_GA_4179.UBUNTU20_64.20211118033954.tgz
+   10  ls
+   11  rwboot
+   12  reboot
+   13  cd
+   14  ls
+   15  sudo nano /etc/apt/sources.list
+   16  apt update
+   17  apt upgrade -y && apt install -y qemu-guest-agent
+   18  apt upgrade -y
+   19  sudo dpkg --configure -a
+   20  sudo apt update
+   21  sudo apt upgrade -y
+   22  apt install -y qemu-guest-agent
+   23  cat /etc/os-release 
+   24  system
+   25  cd
+   26  systemctl status qemu-guest-agent
+   27  cd
+   28  date
+   29  timedatectl set-timezone Asia/Jakarta
+   30  adduser byuadmin
+   31  usermod -aG sudo byuadmin
+   32  usermod --lock ubuntu
+   33  exit
+   34  cd /etc/apache2/sites-available/
+   35  cp 000-default.conf web61srvtest.conf
+   36  ls
+   37  vi web61srvtest.conf 
+   38  git clone https://github.com/alok-kumar8765/Saas_landing-page.git
+   39  ls
+   40  mv Saas_landing-page/ /var/www/web61srvtest
+   41  ls
+   42  a2ensite web61srvtest.conf
+   43  systemctl reload apache2 && systemctl restart apache2
+   44  systemctl reload apache2
+   45  systemctl start apache2
+   46  systemctl status apache2
+   47  systemctl reload apache2 && systemctl restart apache2
+   48  systemctl status apache2
+   49  ip a
+   50  ls -l /var/www/web61srvtest
+   51  mkdir /etc/apache2/ssl/
+   52  cd /etc/apache2/ssl
+   53  ls
+   54  a2enmod ssl
+   55  a2enmod rewrire
+   56  a2enmod --help
+   57  ls
+   58  a2enmod rewrite
+   59  systemctl restart apache2
+   60  ls
+   61  ls -la
+   62  history
+   63  openssl req -newkey rsa:2048 -nodes -keyout web61srvtest.key -x509 -days 365 -out web61srvtest.crt
+   64  ls
+   65  cd cd ..
+   66  cd ../sites-available/
+   67  cp default-ssl.conf web61srvtest-ssl.conf
+   68  history
+   69  vi web61srvtest-ssl.conf
+   70  a2ensite web61srvtest-ssl.conf 
+   71  systemctl reload apache2
+   72  journalctl -xe
+   73  vi web61srvtest-ssl.conf
+   74  a2ensite web61srvtest-ssl.conf 
+   75  systemctl reload apache2
+   76  vim web61srvtest.conf
+   77  cat web61srvtest.conf
+   78  systemctl restart apache2
+   79  ls
+   80  cd
+   81  hostnamectl set-location Jakarta
+   82  hostnamectl set-hostname ubuntu-03-bayu
+   83  apt update -y && apt upgrade -y && apt install apache2 -y
+   84  systemctl status apache2
+   85  cd /
+   86  ls
+   87  su
+   88  cd
+   89  cd /etc/apache2/sites-available/
+   90  ls -l
+   91  ls --help
+   92  ls -c
+   93  ls --colour
+   94  ls -l
+   95  a2
+   96  cp 000-default.conf games.conf
+   97  history > history.txt
+   98  vi games.conf 
+   99  git clone https://github.com/TomMalbran/games.git
+  100  ls -la
+  101  mv games /var/www/
+  102  ls -la
+  103  cd /var/www
+  104  ls -la
+  105  cd /etc/apache2/sites-available/
+  106  ls -la
+  107  a2ensite games.conf 
+  108  systemctl reload apache2
+  109  vi games.conf
+  110  htpasswd -c /etc/apache2/.htpasswd usertest1
+  111  systemctl restart apache2
+  112  cd
+  113  apt install mariadb -y && apt install phpmyadmin -y
+  114  apt install mariadb-server -y && apt install phpmyadmin -y
+  115  apt install php libapache2-mod-php php-mysql mhpmyadmin -y
+  116  apt install php libapache2-mod-php php-mysql phpmyadmin -y
+  117  systemctl restart apache2
+  118  ls -la
+  119  history
+  120  git clone https://github.com/byufdhs2219/historytraining.git
+  121  ls -l
+  122  cd historytraining/
+  123  ls -la
+  124  history > S03-LSA-HISTORY-TRY1.txt
